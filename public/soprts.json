@@ -1,0 +1,44 @@
+[
+    {
+        "id": "01",
+        "name": "Cricket",
+        "time": "30",
+        "img": "https://media.istockphoto.com/photos/closeup-of-red-cricket-ball-and-bat-sitting-on-grass-picture-id177427917?k=20&m=177427917&s=612x612&w=0&h=kr-FOxME8KOnnhYsuR6WFAfB-Hv_ch20Fz5xnzeSU10=",
+        "age": "15-20"
+    },
+    {
+        "id": "02",
+        "name": "Football",
+        "time": "30",
+        "img": "https://resize.indiatvnews.com/en/resize/oldbucket/715_-/sportssoccer/Mumbai-to-host-3132.jpg",
+        "age": "15-20"
+    },
+    {
+        "id": "03",
+        "name": "Hockey",
+        "time": "30",
+        "img": "https://media.istockphoto.com/photos/field-hockey-stick-and-ball-on-green-grass-picture-id1145984811?k=20&m=1145984811&s=612x612&w=0&h=4REBFFsQsg-gi-gtU84mIp_vMkhCDqPCkEUkYHW35Nc=",
+        "age": "15-20"
+    },
+    {
+        "id": "04",
+        "name": "Volley Ball",
+        "time": "30",
+        "img": "https://img.freepik.com/free-photo/volley-ball-net_23-2149450954.jpg?w=2000",
+        "age": "15-20"
+    },
+    {
+        "id": "05",
+        "name": "Badminton",
+        "time": "30",
+        "img": "https://t3.ftcdn.net/jpg/04/84/86/42/360_F_484864213_3Qve2ufnWY7Wkqk9r6RXXVUbraC6lfvQ.jpg",
+        "age": "15-20"
+    },
+    {
+        "id": "06",
+        "name": "Tennis Ball",
+        "time": "30",
+        "img": "https://photos.peopleimages.com/picture/202205/2475195-group-of-tennis-balls-and-rackets-against-a-net-on-an-empty-court-in-a-sports-club-during-the-day.-playing-tennis-is-exercise-promotes-health-wellness-and-fitness.-gear-and-equipment-after-a-game-fit_400_400.jpg",
+        "age": "15-20"
+    }
+]
