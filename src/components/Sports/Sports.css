@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+
+}
+
+.sports-container {
+    /* background-color: khaki; */
+}
+
+.cart-container {
+    /* background-color: lightsteelblue; */
+}
