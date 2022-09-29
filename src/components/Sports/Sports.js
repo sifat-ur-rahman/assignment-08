@@ -4,7 +4,7 @@ import './Sports.css'
 
 const Sports = () => {
     const [sports, setSports] = useState([]);
-    console.log(sports);
+    // console.log(sports);
     useEffect(() => {
         fetch('sports.json')
             .then(res => res.json())
