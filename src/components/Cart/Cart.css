@@ -51,3 +51,10 @@
 .completed-btn:hover {
     background-color: mediumslateblue;
 }
+
+.time p {
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 5px;
+}
