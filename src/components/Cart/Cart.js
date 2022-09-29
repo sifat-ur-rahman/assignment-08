@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Cart.css'
 import Swal from 'sweetalert2'
 
+
 const Cart = (props) => {
     const [time, setTime] = useState(0)
     const { cart } = props
@@ -67,7 +68,9 @@ const Cart = (props) => {
                         'Activity Completed'
                     )
                 }} className='completed-btn'>Activity Completed</button>
+
             </div>
+
         </div>
     );
 };
