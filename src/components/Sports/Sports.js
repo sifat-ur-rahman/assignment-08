@@ -5,14 +5,20 @@ import './Sports.css'
 
 const Sports = () => {
     const [sports, setSports] = useState([]);
+    const [cart, setCart] = useState([])
 
-    // console.log(sports);
+    // console.log(cart.length);
     useEffect(() => {
         fetch('sports.json')
             .then(res => res.json())
             .then(data => setSports(data))
     }, [])
+    const handleAddToCart = (sport) => {
+        // console.log(sport);
+        const newCart = [...cart, sport]
+        setCart(newCart)
 
+    }
     return (
         <div>
             <div className='container'>
@@ -21,11 +27,12 @@ const Sports = () => {
                         sports.map(sport => <Sport
                             key={sport.id}
                             sport={sport}
+                            handleAddToCart={handleAddToCart}
                         ></Sport>)
                     }
                 </div>
                 <div className='cart-container'>
-                    <Cart></Cart>
+                    <Cart cart={cart}></Cart>
                 </div>
             </div>
 

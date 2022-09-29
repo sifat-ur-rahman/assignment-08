@@ -4,7 +4,7 @@ import './Sport.css'
 const Sport = (props) => {
     // console.log(props);
     const { age, img, name, time } = props.sport
-    console.log(name);
+    // console.log(props.handleAddToCart);
     return (
         <div>
             <div className='sport-cart'>
@@ -12,7 +12,7 @@ const Sport = (props) => {
                 <h3>{name}</h3>
                 <p>For Age : {age}</p>
                 <p>Time required : {time} min</p>
-                <button className='btn-sport'>Add to list</button>
+                <button onClick={() => props.handleAddToCart(props.sport)} className='btn-sport'>Add to list</button>
             </div>
 
 

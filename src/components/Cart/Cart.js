@@ -1,8 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = (props) => {
     const [time, setTime] = useState(0)
+
+    const { cart } = props
+
+    let total = 0;
+
+    for (const sport of cart) {
+        total = total + sport.time;
+        // console.log(total);
+    }
+
+
     return (
         <div className=''>
             <div className='owner-info'>
@@ -35,7 +46,7 @@ const Cart = () => {
             </div>
             <div>
                 <h3>Exercise Details</h3>
-                <p>Exercise time: 0 min</p>
+                <p>Exercise time: {total} min</p>
                 <p>Break time: {time} min</p>
             </div>
             <div>
