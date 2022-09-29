@@ -30,6 +30,7 @@ const Cart = () => {
                     <button onClick={() => setTime(15)} className='break-btn'>15m</button>
                     <button onClick={() => setTime(20)} className='break-btn'>20m</button>
                     <button onClick={() => setTime(25)} className='break-btn'>25m</button>
+                    <button onClick={() => setTime(30)} className='break-btn'>30m</button>
                 </div>
             </div>
             <div>
