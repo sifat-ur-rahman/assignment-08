@@ -39,3 +39,15 @@
     padding: 5px;
     border-radius: 15px;
 }
+
+.completed-btn {
+    background-color: slateblue;
+    padding: 15px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.completed-btn:hover {
+    background-color: mediumslateblue;
+}

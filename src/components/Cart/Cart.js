@@ -31,6 +31,14 @@ const Cart = () => {
                     <button className='break-btn'>25m</button>
                 </div>
             </div>
+            <div>
+                <h3>Exercise Details</h3>
+                <p>Exercise time: 0 min</p>
+                <p>Break time: 0 min</p>
+            </div>
+            <div>
+                <button className='completed-btn'>Activity Completed</button>
+            </div>
         </div>
     );
 };
