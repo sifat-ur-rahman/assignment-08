@@ -1,10 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css'
+import Swal from 'sweetalert2'
 
 const Cart = (props) => {
     const [time, setTime] = useState(0)
-
     const { cart } = props
+    // const card = {};
+    // card["time"] = time;
+    // localStorage.setItem('braking', JSON.stringify(card))
+
+    // const timeDB = JSON.parse(localStorage.getItem('braking')).time
+    // console.log(timeDB);
+    useEffect(() => {
+        localStorage.setItem('time', time);
+
+        setTime(localStorage.getItem('time'))
+    })
 
     let total = 0;
 
@@ -50,7 +61,12 @@ const Cart = (props) => {
                 <p>Break time: <b>{time}</b> minutes</p>
             </div>
             <div>
-                <button className='completed-btn'>Activity Completed</button>
+                <button onClick={() => {
+                    Swal.fire(
+                        'Good job!',
+                        'Activity Completed'
+                    )
+                }} className='completed-btn'>Activity Completed</button>
             </div>
         </div>
     );
