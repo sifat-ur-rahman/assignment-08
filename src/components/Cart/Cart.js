@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = () => {
+    const [time, setTime] = useState(0)
     return (
         <div className=''>
             <div className='owner-info'>
@@ -25,16 +26,16 @@ const Cart = () => {
             <div>
                 <h3>Add A Break</h3>
                 <div className='break'>
-                    <button className='break-btn'>10m</button>
-                    <button className='break-btn'>15m</button>
-                    <button className='break-btn'>20m</button>
-                    <button className='break-btn'>25m</button>
+                    <button onClick={() => setTime(10)} className='break-btn'>10m</button>
+                    <button onClick={() => setTime(15)} className='break-btn'>15m</button>
+                    <button onClick={() => setTime(20)} className='break-btn'>20m</button>
+                    <button onClick={() => setTime(25)} className='break-btn'>25m</button>
                 </div>
             </div>
             <div>
                 <h3>Exercise Details</h3>
                 <p>Exercise time: 0 min</p>
-                <p>Break time: 0 min</p>
+                <p>Break time: {time} min</p>
             </div>
             <div>
                 <button className='completed-btn'>Activity Completed</button>

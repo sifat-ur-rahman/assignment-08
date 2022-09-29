@@ -5,6 +5,7 @@ import './Sports.css'
 
 const Sports = () => {
     const [sports, setSports] = useState([]);
+
     // console.log(sports);
     useEffect(() => {
         fetch('sports.json')
