@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <div className='header'>
-                <div >
+                <div>
                     <h1><FontAwesomeIcon icon={faVolleyball} />  Sports Active Club</h1>
                 </div>
 
