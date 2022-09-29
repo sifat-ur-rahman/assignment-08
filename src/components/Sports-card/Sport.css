@@ -28,3 +28,7 @@
     border: 0;
     border-radius: 5px;
 }
+
+.btn-sport:hover {
+    background-color: mediumslateblue;
+}

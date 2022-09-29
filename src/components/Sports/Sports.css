@@ -12,5 +12,7 @@
 }
 
 .cart-container {
-    /* background-color: lightsteelblue; */
+    margin-top: 10px;
+    background-color: rgb(250, 236, 218);
+    border-radius: 5px;
 }

@@ -1,0 +1,41 @@
+.owner-info h4 {
+    margin-bottom: 0;
+}
+
+.owner-info p {
+    margin-top: 2px;
+}
+
+.details {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.details h5 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.details p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.break {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.break-btn {
+    background-color: rgb(162, 225, 246);
+    border: 0;
+    padding: 5px;
+    border-radius: 15px;
+}
